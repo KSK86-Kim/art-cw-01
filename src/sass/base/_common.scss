@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $main-font;
+  font-family: "Oswald", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+}
+
+.bro {
+  border: 1px solid orange;
+}
+
+.brg {
+  border: 1px solid green;
+}
+
+.nav__link.active {
+  color: $accent-color;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.accent {
+  color: $accent-color;
+}
+
+.block {
+  display: block;
+}

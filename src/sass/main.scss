@@ -1,0 +1,22 @@
+body {
+  background-color: aqua;
+}
+// ============ utlis ============
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+// ============ base ============
+
+@import './base/common';
+@import './base/container';
+
+// ============ components ============
+
+// @import './components/logo';
+// @import './components/btn';
+
+// ============ layout ============
+
+@import './layout/header';
+@import './layout/footer';

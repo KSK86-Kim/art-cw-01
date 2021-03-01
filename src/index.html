@@ -1,45 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="/font/Gilroy/stylesheet.css" />
+    <!-- <link rel="stylesheet" href="/sass/main.scss" /> -->
     <title>Webpack Starter Kit</title>
-
-    <!-- Don't forget to delete this style tag. -->
-    <style>
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .intro {
-        text-align: center;
-      }
-
-      .intro h1 {
-        margin-top: 0;
-        font-weight: 500;
-        font-size: 40px;
-      }
-
-      .intro img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
   </head>
-
   <body>
-    <article class="intro">
-      <h1>Webpack starter kit</h1>
+    <header class="header">
+      <section class="header__section--up">
+        <div class="container">
+          <ul class="header-up__list">
+            <li class="header-up__item">
+              <a href="#" class="header-up__link">
+                <svg width="18px" height="21px">
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+                scietegra@scietegra.com
+              </a>
+            </li>
+            <li class="header-up__item">
+              <a href="#" class="header-up__link">
+                <svg width="18px" height="21px">
+                  <use href="./images/sprite.svg#icon-tel"></use>
+                </svg>
+                +7 (495) 542 49 16
+              </a>
+            </li>
+            <li class="header-up__item">
+              <a href="#" class="header-up__link">
+                <svg width="18px" height="21px">
+                  <use href="./images/sprite.svg#icon-key"></use>
+                </svg>
+                ЭЖК Эдем квартал 5, д.12
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="header__section--down">
+        <div class="container">
+          <nav class="header__nav">
+            <img
+              class="nav__logo"
+              src="./images/header/Scietegra-min 1.jpg"
+              alt="Логотып Компании"
+            />
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="" class="nav__link">Главная</a>
+              </li>
+              <li class="nav__item"><a href="" class="nav__link">О нас</a></li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Наши партнеры</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Новости</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Оборудование</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Контакты</a>
+              </li>
+              <li class="nav__item"><a href="" class="nav__link">Сервис</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
 
-      <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
-    </article>
+    <main>
+      <section class="hero__section">
+        <div class="container hero__container">
+          <h1 class="hero__title">Профессиональное оборудование</h1>
+          <h2 class="hero__subject">
+            Новая парадигма реальности: обучение кадров - приоритетная задача
+          </h2>
+          <p class="hero__decription">
+            С учётом сложившейся международной обстановки, реализация намеченных
+            плановых заданий не даёт нам иного выбора, кроме определения модели
+            развития. Непосредств
+          </p>
+          <a class="hero__btn-link" href="">Подробнее</a>
+        </div>
+      </section>
+      <section class="about-us__section">
+        <div class="container about-us__container">
+          <h2 class="about-as__title">О нас</h2>
+          <h3 class="about-as__title--decoration">О нас</h3>
+          <p class="about-as__description">
+            Лишь элементы политического процесса неоднозначны и будут
+            ассоциативно распределены по отраслям.
+          </p>
+          <p class="about-as__definition">
+            Принимая во внимание показатели успешности, постоянное
+            информационно-пропагандистское обеспечение нашей деятельности
+            способствует подготовке и реализации системы массового участия
+          </p>
+          <ul class="about-us__list">
+            <li class="about-as__item">
+              Принимая во внимание показатели успешности
+            </li>
+            <li class="about-as__item">
+              Принимая во внимание показатели успешности
+            </li>
+            <li class="about-as__item">
+              Принимая во внимание показатели успешности
+            </li>
+            <li class="about-as__item">
+              Принимая во внимание показатели успешности
+            </li>
+            <li class="about-as__item">
+              Принимая во внимание показатели успешности
+            </li>
+            <li class="about-as__item">
+              Принимая во внимание показатели успешности
+            </li>
+          </ul>
+          <a class="about-as__btn-link" href="">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="partners__section">
+        <div class="container partners__container">
+          <h2 class="partners__title">Наши партнеры</h2>
+          <h3 class="partners__title--decoration">Наши партнеры</h3>
+          <ul class="partners__list">
+            <!-- <li class="partners__item"><img src="" alt="" /></li>
+            <li class="partners__item"><img src="" alt="" /></li>
+            <li class="partners__item"><img src="" alt="" /></li>
+            <li class="partners__item"><img src="" alt="" /></li>
+            <li class="partners__item"><img src="" alt="" /></li>
+            <li class="partners__item"><img src="" alt="" /></li> -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="advantages__section">
+        <div class="container advantages__container">
+          <h2 class="advantages__title">Преимущества</h2>
+          <h3 class="advantages__title--decoration">Преимущества</h3>
+          <p class="advantages__description">
+            На двадцатом съезде партии прозвучало поразительное заявление:
+            крепость
+          </p>
+          <p class="advantages__definition">
+            Как принято считать, активно развивающиеся страны третьего мира
+            являются только методом политического участия и функционально
+            разнесены на независимые элементы. Приятно, граждане, наблюдать, как
+            некоторые особенности внутренней политики объединены
+          </p>
+          <ul class="advantages">
+            <li class="advantages__item">
+              <svg width="18px" height="21px">
+                <use href="./images/sprite.svg#icon-advantages"></use>
+              </svg>
+              <p class="advantages__declaration">Курс ценных бумаг</p>
+              <p class="advantages__exposition">
+                В своём стремлении улучшить пользовательский опыт мы упускаем,
+                что сторонники тоталитаризма в науке являются методом
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="news__section">
+        <div class="container news__container">
+          <h2 class="news__title">Наши новости</h2>
+          <h3 class="news__title--decoration">Наши новости</h3>
+          <ul class="news__list">
+            <li class="news__item">
+              <!-- <img src="" alt="" /> -->
+              <p class="news__data"></p>
+              <h4 class="news__subject">
+                Новый апарат который поможет очистить ваши зубы
+              </h4>
+              <p class="news__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                at est libero. Aliquam non mollis nulla. Aenean aliquet
+                vestibulum magna vitae consequat. Donec
+              </p>
+              <a class="news__link" href="">Читать далее...</a>
+            </li>
+          </ul>
+          <a class="news__btn-link" href="">Подробнее</a>
+        </div>
+      </section>
+
+      <section class="form-question__section">
+        <div class="container form-question__container">
+          <form action="#" class="form-question">
+            <h2 class="form-question__title"></h2>
+            <input type="tel" class="form-question__input" />
+            <button type="submit" class="form-question__btn">
+              Заказать звонок
+            </button>
+            <p class="form-question__description">
+              Известный инсайдер, в преддверии важного события, определил
+              дальнейшее развитие
+            </p>
+          </form>
+        </div>
+      </section>
+
+      <section class="activity__section">
+        <div class="container activity__container">
+          <h2 class="activity__title">Мероприятия</h2>
+          <h3 class="activity__title--decoration">Мероприятия</h3>
+
+          <ul class="activity__list">
+            <li class="activity__item">
+              <!-- <img src="" alt="" /> -->
+              <p class="activity__data"></p>
+              <h4 class="activity__subject">
+                Новый апарат который поможет очистить ваши зубы
+              </h4>
+              <a class="activity__link" href="">Смотреть больше...</a>
+            </li>
+          </ul>
+          <a class="activity__btn-link" href="">Подробнее</a>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1322.74557507261!2d35.039382752371296!3d48.46629205846283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2e68059bf97%3A0x9ffb6cd2e6c734e6!2z0YPQuy4g0JLQvtGB0LrRgNC10YHQtdC90YHQutCw0Y8sINCU0L3QuNC_0YDQviwg0JTQvdC10L_RgNC-0L_QtdGC0YDQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDQ5MDAw!5e0!3m2!1sru!2sua!4v1614546415855!5m2!1sru!2sua"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+      ------------
+
+      <section class="__section">
+        <div class="container __container"></div>
+      </section>
+
+      ------------
+    </main>
+    <footer>
+      <div class="container"></div>
+    </footer>
   </body>
 </html>

@@ -1,6 +1,3 @@
-body {
-  background-color: aqua;
-}
 // ============ utlis ============
 
 @import './utils/variables';
@@ -9,12 +6,11 @@ body {
 // ============ base ============
 
 @import './base/common';
-@import './base/container';
 
 // ============ components ============
 
-// @import './components/logo';
-// @import './components/btn';
+@import './components/logo';
+@import './components/backdrop';
 
 // ============ layout ============
 

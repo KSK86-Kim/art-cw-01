@@ -45,22 +45,26 @@
         </div>
       </section>
       <section class="header__section--down">
-        <div class="container">
-          <nav class="header__nav">
+        <div class="container header-down__container">
+          <nav class="header-down__nav">
             <img
               class="nav__logo"
               src="./images/header/Scietegra-min 1.jpg"
               alt="Логотып Компании"
+              width="142px"
+              height="46px"
             />
             <ul class="nav__list">
               <li class="nav__item">
                 <a href="" class="nav__link">Главная</a>
               </li>
-              <li class="nav__item"><a href="" class="nav__link">О нас</a></li>
-              <li class="nav__item">
+              <li class="nav__item nav__item--hidden">
+                <a href="" class="nav__link">О нас</a>
+              </li>
+              <li class="nav__item nav__item--hidden">
                 <a href="" class="nav__link">Наши партнеры</a>
               </li>
-              <li class="nav__item">
+              <li class="nav__item nav__item--hidden">
                 <a href="" class="nav__link">Новости</a>
               </li>
               <li class="nav__item">
@@ -69,15 +73,66 @@
               <li class="nav__item">
                 <a href="" class="nav__link">Контакты</a>
               </li>
-              <li class="nav__item"><a href="" class="nav__link">Сервис</a></li>
+              <li class="nav__item nav__item--hidden">
+                <a href="" class="nav__link">Сервис</a>
+              </li>
             </ul>
+
+            <div data-menu-container class="nav-menu__container">
+              <ul class="nav-menu__list">
+                <li class="nav-menu__item">
+                  <a href="" class="nav-menu__link active">Главная</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="" class="nav-menu__link">О нас</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="" class="nav-menu__link">Наши партнеры</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="" class="nav-menu__link">Оборудование</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="" class="nav-menu__link">Контакты</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="" class="nav-menu__link">Сервис</a>
+                </li>
+                <li class="nav-menu__item">
+                  <a href="" class="nav-menu__link">Новости</a>
+                </li>
+              </ul>
+            </div>
           </nav>
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            data-menu-button
+          >
+            <svg
+              class="menu__svg"
+              width="53"
+              height="53"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="icon-menu-close"
+                href="./images/sprite.svg#icon-menu-close"
+              ></use>
+              <use
+                class="icon-menu-open"
+                href="./images/sprite.svg#icon-menu-open"
+              ></use>
+            </svg>
+          </button>
         </div>
       </section>
     </header>
 
     <main>
-      <section class="hero__section">
+      <!-- <section class="hero__section">
+        
         <div class="container hero__container">
           <h1 class="hero__title">Профессиональное оборудование</h1>
           <h2 class="hero__subject">
@@ -90,7 +145,8 @@
           </p>
           <a class="hero__btn-link" href="">Подробнее</a>
         </div>
-      </section>
+      </section> -->
+
       <section class="about-us__section">
         <div class="container about-us__container">
           <h2 class="about-as__title">О нас</h2>
@@ -128,22 +184,22 @@
         </div>
       </section>
 
-      <section class="partners__section">
+      <!-- <section class="partners__section">
         <div class="container partners__container">
           <h2 class="partners__title">Наши партнеры</h2>
           <h3 class="partners__title--decoration">Наши партнеры</h3>
           <ul class="partners__list">
-            <!-- <li class="partners__item"><img src="" alt="" /></li>
             <li class="partners__item"><img src="" alt="" /></li>
             <li class="partners__item"><img src="" alt="" /></li>
             <li class="partners__item"><img src="" alt="" /></li>
             <li class="partners__item"><img src="" alt="" /></li>
-            <li class="partners__item"><img src="" alt="" /></li> -->
+            <li class="partners__item"><img src="" alt="" /></li>
+            <li class="partners__item"><img src="" alt="" /></li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="advantages__section">
+      <!-- <section class="advantages__section">
         <div class="container advantages__container">
           <h2 class="advantages__title">Преимущества</h2>
           <h3 class="advantages__title--decoration">Преимущества</h3>
@@ -170,15 +226,15 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="news__section">
+      <!-- <section class="news__section">
         <div class="container news__container">
           <h2 class="news__title">Наши новости</h2>
           <h3 class="news__title--decoration">Наши новости</h3>
           <ul class="news__list">
             <li class="news__item">
-              <!-- <img src="" alt="" /> -->
+              <img src="" alt="" />
               <p class="news__data"></p>
               <h4 class="news__subject">
                 Новый апарат который поможет очистить ваши зубы
@@ -193,9 +249,9 @@
           </ul>
           <a class="news__btn-link" href="">Подробнее</a>
         </div>
-      </section>
+      </section> -->
 
-      <section class="form-question__section">
+      <!-- <section class="form-question__section">
         <div class="container form-question__container">
           <form action="#" class="form-question">
             <h2 class="form-question__title"></h2>
@@ -209,16 +265,16 @@
             </p>
           </form>
         </div>
-      </section>
+      </section> -->
 
-      <section class="activity__section">
+      <!-- <section class="activity__section">
         <div class="container activity__container">
           <h2 class="activity__title">Мероприятия</h2>
           <h3 class="activity__title--decoration">Мероприятия</h3>
 
           <ul class="activity__list">
             <li class="activity__item">
-              <!-- <img src="" alt="" /> -->
+              <img src="" alt="" />
               <p class="activity__data"></p>
               <h4 class="activity__subject">
                 Новый апарат который поможет очистить ваши зубы
@@ -236,15 +292,15 @@
             loading="lazy"
           ></iframe>
         </div>
-      </section>
+      </section> -->
 
-      ------------
+      <!-- ------------
 
       <section class="__section">
         <div class="container __container"></div>
       </section>
 
-      ------------
+      ------------ -->
     </main>
     <footer>
       <div class="container"></div>

@@ -1,16 +1,10 @@
-$main-font: "Oswald", sans-serif;
-$additional: "Open Sans", sans-serif;
-$primary-title-color: #000000;
+$primary-title-color: #212121;
 $primary-white-color: #ffffff;
-$secondary-title-color: #404149;
-$description-color: #999999;
-$accent-color: #f7654a;
-$hover-color: rgba(192, 192, 192, 0.76);
-$hover-color-dark: rgba(192, 192, 192, 0.16);
+$description-color: #757575;
+$active-color: #56c297;
+$accent-form-color: #56c297;
+$transparent-white: rgba(255, 255, 255, 0.4);
 
-// $transparent-white: rgba(255, 255, 255, 0.6);
-// $social: #afb1b8;
-
-// $breakpoint-mobile: 480px;
-// $breakpoint-tablet: 768px;
-// $breakpoint-desktop: 1200px;
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1200px;

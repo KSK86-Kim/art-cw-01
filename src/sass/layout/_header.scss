@@ -172,6 +172,10 @@
 
   &__container.is-open {
     display: block;
+
+    @media screen and (min-width: 992px) {
+      display: none;
+    }
   }
 
   &__list {
@@ -181,8 +185,10 @@
   }
 
   &__item {
-    @media screen and(max-width:767px) {
+    @media screen and(max-width:424px) {
       margin-left: 52px;
+    }
+    @media screen and(max-width:767px) {
       position: relative;
 
       &:not(:last-child) {

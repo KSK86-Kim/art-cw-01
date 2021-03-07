@@ -2,6 +2,7 @@
 
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/minin';
 
 // ============ base ============
 
@@ -15,4 +16,5 @@
 // ============ layout ============
 
 @import './layout/header';
+@import './layout/about-us';
 @import './layout/footer';

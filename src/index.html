@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
     />
-    <link rel="stylesheet" href="/font/Gilroy/stylesheet.css" />
+    <!-- <link rel="stylesheet" href="/font/Gilroy/stylesheet.css" /> -->
     <!-- <link rel="stylesheet" href="/sass/main.scss" /> -->
     <title>Webpack Starter Kit</title>
   </head>
@@ -56,7 +56,7 @@
             />
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="" class="nav__link">Главная</a>
+                <a href="" class="nav__link active">Главная</a>
               </li>
               <li class="nav__item nav__item--hidden">
                 <a href="" class="nav__link">О нас</a>
@@ -147,40 +147,241 @@
         </div>
       </section> -->
 
-      <section class="about-us__section">
-        <div class="container about-us__container">
-          <h2 class="about-as__title">О нас</h2>
-          <h3 class="about-as__title--decoration">О нас</h3>
-          <p class="about-as__description">
-            Лишь элементы политического процесса неоднозначны и будут
-            ассоциативно распределены по отраслям.
-          </p>
-          <p class="about-as__definition">
-            Принимая во внимание показатели успешности, постоянное
-            информационно-пропагандистское обеспечение нашей деятельности
-            способствует подготовке и реализации системы массового участия
-          </p>
-          <ul class="about-us__list">
-            <li class="about-as__item">
-              Принимая во внимание показатели успешности
-            </li>
-            <li class="about-as__item">
-              Принимая во внимание показатели успешности
-            </li>
-            <li class="about-as__item">
-              Принимая во внимание показатели успешности
-            </li>
-            <li class="about-as__item">
-              Принимая во внимание показатели успешности
-            </li>
-            <li class="about-as__item">
-              Принимая во внимание показатели успешности
-            </li>
-            <li class="about-as__item">
-              Принимая во внимание показатели успешности
-            </li>
-          </ul>
-          <a class="about-as__btn-link" href="">Подробнее</a>
+      <section class="about-as__section">
+        <div class="container about-as__container">
+          <div class="about-as__wrapper--left">
+            <ul class="wrapper-img__list">
+              <li class="wrapper-img__item">
+                <picture class="wrapper-img__layer1">
+                  <source
+                    srcset="
+                      ./images/about-us/min/desktop/1x/Rectangle77.png 1x,
+                      ./images/about-us/min/desktop/2x/Rectangle77.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/png"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/about-us/min/laptop/1x/Rectangle77.png 1x,
+                      ./images/about-us/min/laptop/2x/Rectangle77.png 2x
+                    "
+                    media="(min-width: 992px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/tablet/1x/Rectangle77.png 1x,
+                      ./images/about-us/min/tablet/2x/Rectangle77.png 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle77.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle77.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <img
+                    class="team__img"
+                    src="/images/about-us/min/moble/1x/Rectangle77.png"
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle77.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle77.png 2x
+                    "
+                    alt="Игорь Демьяненко"
+                  />
+                </picture>
+              </li>
+              <li class="wrapper-img__item">
+                <picture class="wrapper-img__layer1">
+                  <source
+                    srcset="
+                      ./images/about-us/min/desktop/1x/Rectangle78.png 1x,
+                      ./images/about-us/min/desktop/2x/Rectangle78.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/laptop/1x/Rectangle78.png 1x,
+                      ./images/about-us/min/laptop/2x/Rectangle78.png 2x
+                    "
+                    media="(min-width: 992px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/tablet/1x/Rectangle78.png 1x,
+                      ./images/about-us/min/tablet/2x/Rectangle78.png 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle78.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle78.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <img
+                    class="team__img"
+                    src="/images/about-us/min/moble/1x/Rectangle78.png"
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle78.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle78.png 2x
+                    "
+                    alt="Игорь Демьяненко"
+                  />
+                </picture>
+              </li>
+              <li class="wrapper-img__item">
+                <picture class="wrapper-img__layer1">
+                  <source
+                    srcset="
+                      ./images/about-us/min/desktop/1x/Rectangle80.png 1x,
+                      ./images/about-us/min/desktop/2x/Rectangle80.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/laptop/1x/Rectangle80.png 1x,
+                      ./images/about-us/min/laptop/2x/Rectangle80.png 2x
+                    "
+                    media="(min-width: 992px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/tablet/1x/Rectangle80.png 1x,
+                      ./images/about-us/min/tablet/2x/Rectangle80.png 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle80.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle80.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <img
+                    class="team__img"
+                    src="/images/about-us/min/moble/1x/Rectangle80.png"
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle80.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle80.png 2x
+                    "
+                    alt="Игорь Демьяненко"
+                  />
+                </picture>
+              </li>
+              <li class="wrapper-img__item">
+                <picture class="wrapper-img__layer1">
+                  <source
+                    srcset="
+                      ./images/about-us/min/desktop/1x/Rectangle79.png 1x,
+                      ./images/about-us/min/desktop/2x/Rectangle79.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/laptop/1x/Rectangle79.png 1x,
+                      ./images/about-us/min/laptop/2x/Rectangle79.png 2x
+                    "
+                    media="(min-width: 992px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/tablet/1x/Rectangle79.png 1x,
+                      ./images/about-us/min/tablet/2x/Rectangle79.png 2x
+                    "
+                    media="(min-width: 768px)"
+                    type="image/png"
+                  />
+                  <source
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle79.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle79.png 2x
+                    "
+                    type="image/png"
+                  />
+                  <img
+                    class="team__img"
+                    src="/images/about-us/min/moble/1x/Rectangle79.png"
+                    srcset="
+                      ./images/about-us/min/moble/1x/Rectangle79.png 1x,
+                      ./images/about-us/min/moble/2x/Rectangle79.png 2x
+                    "
+                    alt="Игорь Демьяненко"
+                  />
+                </picture>
+              </li>
+            </ul>
+          </div>
+          <div class="about-as__wrapper--right">
+            <h2 class="about-as__title active">О нас</h2>
+            <h3 class="about-as__title--decoration">О нас</h3>
+            <p class="about-as__description">
+              Лишь элементы политического процесса неоднозначны и будут
+              ассоциативно распределены по отраслям.
+            </p>
+            <p class="about-as__definition">
+              Принимая во внимание показатели успешности, постоянное
+              информационно-пропагандистское обеспечение нашей деятельности
+              способствует подготовке и реализации системы массового участия
+            </p>
+            <ul class="about-as__list">
+              <li class="about-as__item">
+                <svg class="about-as__svg" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-mark "></use>
+                </svg>
+                Принимая во внимание показатели успешности
+              </li>
+              <li class="about-as__item">
+                <svg class="about-as__svg" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-mark "></use>
+                </svg>
+                Принимая во внимание показатели успешности
+              </li>
+              <li class="about-as__item">
+                <svg class="about-as__svg" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-mark "></use>
+                </svg>
+                Принимая во внимание показатели успешности
+              </li>
+              <li class="about-as__item">
+                <svg class="about-as__svg" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-mark "></use>
+                </svg>
+                Принимая во внимание показатели успешности
+              </li>
+              <li class="about-as__item">
+                <svg class="about-as__svg" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-mark "></use>
+                </svg>
+                Принимая во внимание показатели успешности
+              </li>
+              <li class="about-as__item">
+                <svg class="about-as__svg" width="22" height="22">
+                  <use href="./images/sprite.svg#icon-mark "></use>
+                </svg>
+                Принимая во внимание показатели успешности
+              </li>
+            </ul>
+            <a class="about-as__btn-link" href="">Подробнее</a>
+          </div>
         </div>
       </section>
 

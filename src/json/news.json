@@ -1,0 +1,101 @@
+[
+  {
+    "id": "q1",
+    "data-number": "1",
+    "data-month": "Мая",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q2",
+    "data-number": "2",
+    "data-month": "Март",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q3",
+    "data-number": "3",
+    "data-month": "Апрель",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q4",
+    "data-number": "4",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q5",
+    "data-number": "5",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q5",
+    "data-number": "10",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q5",
+    "data-number": "11",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q5",
+    "data-number": "12",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q5",
+    "data-number": "13",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q5",
+    "data-number": "14",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "id": "q5",
+    "data-number": "15",
+    "data-month": "Январь",
+    "name": "Новый апарат который поможет очистить ваши зубы",
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
+    "image": "./images/news/card1.png",
+    "link": "https://www.youtube.com"
+  }
+]

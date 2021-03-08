@@ -1,0 +1,18 @@
+{{#each this}}
+<li class="news__item">
+  <img class="news__img" src="{{image}}" alt="{{name}}" />
+  <div class="news__data">
+    <p class="news__data--number">{{data-number}}</p>
+    <p class="news__data--month">{{data-month}}</p>
+  </div>
+  <div class="news__wrapper">
+    <h4 class="news__subject">
+      {{name}}
+    </h4>
+    <p class="news__description">
+      {{description}}
+    </p>
+    <a class="news__link active" href="{{link}}">Читать далее...</a>
+  </div>
+</li>
+{{/each}}

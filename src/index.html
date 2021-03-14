@@ -517,48 +517,67 @@
         </div>
       </section>
 
-      <!-- <section class="form-question__section">
+      <section class="form-question__section">
         <div class="container form-question__container">
-          <form action="#" class="form-question">
-            <h2 class="form-question__title"></h2>
-            <input type="tel" class="form-question__input" />
-            <button type="submit" class="form-question__btn">
-              Заказать звонок
-            </button>
-            <p class="form-question__description">
-              Известный инсайдер, в преддверии важного события, определил
-              дальнейшее развитие
-            </p>
-          </form>
+          <div class="form-question__wrapper">
+            <form action="#" class="form-question">
+              <h2 class="form-question__title">
+                Остались вопросы? <br />
+                Оставьте сой номер телефона <wbr /> и мы Вам перезвоним
+              </h2>
+              <input
+                type="tel"
+                class="form-question__input js-input-question"
+                placeholder="Введите номер телефона"
+              />
+              <button type="submit" class="form-question__btn">
+                Заказать звонок
+              </button>
+              <p class="form-question__description">
+                Известный инсайдер, в преддверии важного события, определил
+                дальнейшее развитие
+              </p>
+            </form>
+          </div>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section class="activity__section">
-        <div class="container activity__container">
-          <h2 class="activity__title">Мероприятия</h2>
-          <h3 class="activity__title--decoration">Мероприятия</h3>
+      <section class="event__section">
+        <div class="container event__container">
+          <h2 class="event__title">Мероприятия</h2>
+          <h3 class="event__title--decoration">Мероприятия</h3>
 
-          <ul class="activity__list">
-            <li class="activity__item">
-              <img src="" alt="" />
-              <p class="activity__data"></p>
-              <h4 class="activity__subject">
+          <ul class="event__list" data-event-list>
+            <li class="event__item">
+              <img
+                class="event__img"
+                src="https://avatarko.ru/img/kartinka/33/zhivotnye_lisa_32567.jpg"
+                alt=""
+              />
+              <p class="event__data">16.05.2021</p>
+              <h4 class="event__subject">
                 Новый апарат который поможет очистить ваши зубы
               </h4>
-              <a class="activity__link" href="">Смотреть больше...</a>
+              <a class="event__link active" href="">Смотреть больше...</a>
             </li>
           </ul>
-          <a class="activity__btn-link" href="">Подробнее</a>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1322.74557507261!2d35.039382752371296!3d48.46629205846283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2e68059bf97%3A0x9ffb6cd2e6c734e6!2z0YPQuy4g0JLQvtGB0LrRgNC10YHQtdC90YHQutCw0Y8sINCU0L3QuNC_0YDQviwg0JTQvdC10L_RgNC-0L_QtdGC0YDQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDQ5MDAw!5e0!3m2!1sru!2sua!4v1614546415855!5m2!1sru!2sua"
-            width="100%"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+          <button
+            class="event__btn"
+            type="button"
+            data-event-button
+            aria-expanded="false"
+          >
+            Подробнее
+          </button>
         </div>
-      </section> -->
+        <iframe
+          class="event__map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1322.74557507261!2d35.039382752371296!3d48.46629205846283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2e68059bf97%3A0x9ffb6cd2e6c734e6!2z0YPQuy4g0JLQvtGB0LrRgNC10YHQtdC90YHQutCw0Y8sINCU0L3QuNC_0YDQviwg0JTQvdC10L_RgNC-0L_QtdGC0YDQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDQ5MDAw!5e0!3m2!1sru!2sua!4v1614546415855!5m2!1sru!2sua"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
 
       <!-- ------------
 
@@ -569,7 +588,40 @@
       ------------ -->
     </main>
     <footer>
-      <div class="container"></div>
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link"> +7 (495) 542 49 16 </a>
+          </li>
+          <li class="header-up__item">
+            <a href="#" class="footer__link"> scietegra@scietegra.com </a>
+          </li>
+          <li class="footer__item">
+            <ul class="footer-svg__list">
+              <li class="footer-svg__item">
+                <svg>
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+              </li>
+              <li class="footer-svg__item">
+                <svg>
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+              </li>
+              <li class="footer-svg__item">
+                <svg>
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+              </li>
+              <li class="footer-svg__item">
+                <svg>
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

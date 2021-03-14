@@ -1,101 +1,112 @@
 [
   {
     "id": "q1",
+    "data": "01.05.2021",
     "data-number": "1",
     "data-month": "Мая",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/23/igra_Dota_2_Queen_of_Pain_22260.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q2",
+    "data": "02.03.2021",
     "data-number": "2",
     "data-month": "Март",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/33/zhivotnye_lisa_32567.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q3",
+    "data": "02.04.2021",
     "data-number": "3",
     "data-month": "Апрель",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/28/igra_Dota_2_Brewmaster_27527.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q4",
+    "data": "04.01.2021",
     "data-number": "4",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/14/devushka_13025.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q5",
+    "data": "05.01.2021",
     "data-number": "5",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/7/kot_babochka_6308.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q5",
+    "data": "10.01.2021",
     "data-number": "10",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/8/devushka_7187.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q5",
+    "data": "11.01.2021",
     "data-number": "11",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/16/igrushka_kruzhka_okno_mishki_15205.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q5",
+    "data": "12.01.2021",
     "data-number": "12",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/avatar/20/Deadpool_19496.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q5",
+    "data": "13.01.2021",
     "data-number": "13",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/16/zhivotnye_medved_15856.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q5",
+    "data": "14.01.2021",
     "data-number": "14",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/13/kniga_korabl_12100.jpg",
     "link": "https://www.youtube.com"
   },
   {
     "id": "q5",
+    "data": "15.01.2021",
     "data-number": "15",
     "data-month": "Январь",
     "name": "Новый апарат который поможет очистить ваши зубы",
     "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at est libero. Aliquam non mollis nulla. Aenean aliquet vestibulum magna vitae consequat. Donec",
-    "image": "./images/news/card1.png",
+    "image": "https://avatarko.ru/img/kartinka/20/monstr_les_hameleon_19802.jpg",
     "link": "https://www.youtube.com"
   }
 ]

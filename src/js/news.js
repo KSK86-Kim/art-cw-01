@@ -1,20 +1,27 @@
 
 
+import cardsNewsTemplate from '../templates/cardsNews.hbs';
+import cardsNews from '../json/news.json';
+
+
 const refs = {
     newsBtn: document.querySelector("[data-news-button]"),
-    newsCtn: document.querySelector("[data-news-container]"),
+    newsGallery: document.querySelector("[data-news-container]"),
 }
-console.log(refs.newsBtn, refs.newsCtn)
 
+const markup = cardsNewsTemplate(cardsNews);
+refs.newsGallery.insertAdjacentHTML('afterbegin', markup);
+
+function newsHidden () {
+    // const expanded = refs.newsBtn.getAttribute("aria-expanded") === "true" || false;
+    refs.newsBtn.classList.toggle("is-open");
+    // refs.newsBtn.setAttribute("aria-expanded", !expanded);
+    refs.newsGallery.classList.toggle("is-open")
+}
 
 refs.newsBtn.addEventListener("click", newsHidden)
 
-function newsHidden () {
-        // const expanded = refs.newsBtn.getAttribute("aria-expanded") === "true" || false;
-        refs.newsBtn.classList.toggle("is-open");
-        // refs.newsBtn.setAttribute("aria-expanded", !expanded);
-        refs.newsCtn.classList.toggle("is-open")
-}
+
 
 
 // refs.newsBtn.addEventListener("click", () => {

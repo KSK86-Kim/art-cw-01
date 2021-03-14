@@ -3,22 +3,18 @@
     position: relative;
     @media screen and(max-width:767px) {
       padding-top: 44px;
-      padding-bottom: 30px;
     }
 
     @media screen and (min-width: 768px) and (max-width: 991px) {
       padding-top: 95px;
-      padding-bottom: 80px;
     }
 
     @media screen and (min-width: 992px) and (max-width: 1199px) {
       padding-top: 98px;
-      padding-bottom: 66px;
     }
 
     @media screen and (min-width: 1200px) {
       padding-top: 115px;
-      padding-bottom: 90px;
     }
   }
   &__container {

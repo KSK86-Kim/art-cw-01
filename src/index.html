@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="header">
-      <section class="header__section--up">
+      <div class="header__section--up">
         <div class="container">
           <ul class="header-up__list">
             <li class="header-up__item">
@@ -43,16 +43,16 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="header__section--down">
+      </div>
+      <div class="header__section--down">
         <div class="container header-down__container">
           <nav class="header-down__nav">
             <img
               class="nav__logo"
-              src="./images/header/Scietegra-min 1.jpg"
+              src="./images/header/Scietegra-min.jpg"
               alt="Логотып Компании"
-              width="142px"
-              height="46px"
+              width="142"
+              height="46"
             />
             <ul class="nav__list">
               <li class="nav__item">
@@ -127,7 +127,7 @@
             </svg>
           </button>
         </div>
-      </section>
+      </div>
     </header>
 
     <main>
@@ -587,40 +587,130 @@
 
       ------------ -->
     </main>
-    <footer>
-      <div class="container">
-        <ul class="footer__list">
-          <li class="footer__item">
-            <a href="#" class="footer__link"> +7 (495) 542 49 16 </a>
-          </li>
-          <li class="header-up__item">
-            <a href="#" class="footer__link"> scietegra@scietegra.com </a>
-          </li>
-          <li class="footer__item">
-            <ul class="footer-svg__list">
-              <li class="footer-svg__item">
-                <svg>
-                  <use href="./images/sprite.svg#icon-mail"></use>
-                </svg>
+    <footer class="footer">
+      <div class="footer--up">
+        <div class="container footer__container">
+          <ul class="footer-contacts__list">
+            <li class="footer-contacts__item">
+              <a href="#" class="footer-contacts__link"> +7 (495) 542 49 16 </a>
+            </li>
+            <li class="footer-contacts__item">
+              <a href="#" class="footer-contacts__link">
+                scietegra@scietegra.com
+              </a>
+            </li>
+            <li class="footer-contacts__item">
+              <ul class="footer-svg__list">
+                <li class="footer-svg__item">
+                  <a href="#" class="footer-svg__link">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-svg__item">
+                  <a href="#" class="footer-svg__link">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-viber-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-svg__item">
+                  <a href="#" class="footer-svg__link">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-whatsapp-1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-svg__item">
+                  <a href="#" class="footer-svg__link">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-instagram-1"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="footer-nav__container">
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link"> Главная </a>
               </li>
-              <li class="footer-svg__item">
-                <svg>
-                  <use href="./images/sprite.svg#icon-mail"></use>
-                </svg>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Новости</a>
               </li>
-              <li class="footer-svg__item">
-                <svg>
-                  <use href="./images/sprite.svg#icon-mail"></use>
-                </svg>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Сервис</a>
               </li>
-              <li class="footer-svg__item">
-                <svg>
-                  <use href="./images/sprite.svg#icon-mail"></use>
-                </svg>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Контакты</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Наши партнеры</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">О нас</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Оборудование</a>
               </li>
             </ul>
-          </li>
-        </ul>
+            <ul class="footer-nav__list--first">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link"> Главная </a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Новости</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Сервис</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">О нас</a>
+              </li>
+            </ul>
+            <ul class="footer-nav__list--second">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Наши партнеры</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Оборудование</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <form action="#" class="footer-from">
+              <label>
+                <p class="footer-from__title footer-from__title--up">
+                  Подпишитесь на нашу рассылку:
+                </p>
+                <div class="footer-from__bunch">
+                  <input
+                    type="email"
+                    class="footer-from__input"
+                    placeholder="Введите свой E-mail"
+                  />
+                  <button type="submit" class="footer-from__btn">
+                    <svg>
+                      <use href="./images/sprite.svg#icon-right-arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+              </label>
+            </form>
+            <p class="footer-from__title footer-from__title--down">
+              Остались вопросы?
+            </p>
+            <button type="submit" class="footer__btn">Написать нам</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer--down">
+        <p>&#xa9; Copyright 2020 | Политика конфиденциальности</p>
       </div>
     </footer>
   </body>
